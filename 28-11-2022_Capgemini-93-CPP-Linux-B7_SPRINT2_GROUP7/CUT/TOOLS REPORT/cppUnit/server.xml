@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="2">
+      <Name>TestSocketServer::testListen</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>TestServer.cpp</File>
+        <Line>53</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0== mTestobj-&gt;Listen()
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>TestSocketServer::testCreateSocket</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>2</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>
